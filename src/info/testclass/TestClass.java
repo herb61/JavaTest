@@ -7,6 +7,8 @@
  */
 package info.testclass;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Herbert.PICHLER
@@ -18,6 +20,9 @@ public class TestClass {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        SimpleGui gui = new SimpleGui();
+        gui.generateGui();
+
         System.out.println("Test");
     }
     
